@@ -1,0 +1,12 @@
+plyfile
+matplotlib
+arguments
+future
+pyyaml
+tqdm
+accelerate
+diffusers
+transformers
+peft
+datasets
+bitsandbytes

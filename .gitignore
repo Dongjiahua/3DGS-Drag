@@ -1,0 +1,139 @@
+data/
+dreambooth/
+output/
+
+
+
+# ------------------------------
+# OS-SPECIFIC
+# ------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ------------------------------
+# PYTHON
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+ENV/
+
+# Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# ------------------------------
+# LOGS & TEMP
+# ------------------------------
+logs/
+*.log
+*.out
+*.err
+tmp/
+temp/
+*.tmp
+
+# ------------------------------
+# ENV & SECRETS
+# ------------------------------
+*.env
+*.env.*
+.envrc
+.env.local
+*.pem
+*.key
+*.crt
+
+# ------------------------------
+# EDITORS / IDEs
+# ------------------------------
+# VS Code
+.vscode/
+.vscode-test/
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# Other
+*.swp
+*.swo
+
+# ------------------------------
+# DATA / MODELS (OPTIONAL)
+# ------------------------------
+data/
+datasets/
+checkpoints/
+models/
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.npz
+*.npy
+
+# ------------------------------
+# NODE (if you ever mix frontend)
+# ------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
